@@ -43,15 +43,23 @@ We are creating Virtual Machines via the Azure Portal. We need to make sure that
 
 </p>
 <br />
-<h3>Observing Network Traffic</h3>
+<h3>Installing Wireshark on Windows Virtual Machine</h3>
 
 <p>
-  
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+In order to get started, we will be using Remote Desktop for windows. You will be remoting into your Windows VM. Make sure to use all settings provided via the virtual machines button on Azure Portal. Once you are in the virtual machine we will be installing wireshark. Make sure to make your way to wireshark.org and download the x64 Windows Installer. Make sure to also install Pcap, NOT USB pcap. Once installed we can move onto the next steps of the lab.
+
+![image](https://github.com/user-attachments/assets/c20ea961-4bc6-446a-8f2f-d2b6024ed594)
+
+<h3>Observing Network Traffic</h3>
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once wireshark is installed, make sure to select the 'ethernet' option that shows internet traffic via the graph. Once selected, click on the sharkfin at the top left and a filter for icmp packets. Wireshark should look like this.
+
+![image](https://github.com/user-attachments/assets/556a02aa-f22e-4d77-b0d2-b12b9cd989a5)
+
+11
+
 </p>
 <br />
 
