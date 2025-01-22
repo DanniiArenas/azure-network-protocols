@@ -89,7 +89,7 @@ Once wireshark is installed, make sure to select the 'ethernet' option that show
 
 ![image](https://github.com/user-attachments/assets/556a02aa-f22e-4d77-b0d2-b12b9cd989a5)
 
-11
+Go ahead and find the private Ip Address of the 
 
 </p>
 <br />
