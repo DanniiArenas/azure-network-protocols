@@ -57,8 +57,9 @@ If you are ready go ahead and click on 'review + create'. It will validate the r
 
 Now you have created your first resource group! Go ahead and follow to the next steps to continue on with the lab.
 
-
 </p>
+
+<br />
 
 <h3>Creating Virtual Machines via Azure Portal</h3>
 
@@ -89,7 +90,17 @@ Once wireshark is installed, make sure to select the 'ethernet' option that show
 
 ![image](https://github.com/user-attachments/assets/556a02aa-f22e-4d77-b0d2-b12b9cd989a5)
 
-Go ahead and find the private Ip Address of the 
+Go ahead and find the private Ip Address of the linux VM. Once found, go to the windows VM and ping the IP address via Powershell. 'ping 10.0.0.x' The command should send out 4 packets to the linux VM, whereas on wireshark you will see 8 prompts.
+
+![image](https://github.com/user-attachments/assets/735fbf24-4176-4a8c-8b1b-2ee676c7f52d)
+
+These 8 prompts signify that with every request sent out to that private IP address, there was a reply. Therefore the connection is working.
+
+You can also see the Mac Address of the computer you are using by clicking on one of the packets on wireshark, then going to 'Ethernet II' and under 'Source' the physical address will be shown. This is also the Data Link Layer of the OSI model at work. This can also be confirmed via powershell.
+
+![image](https://github.com/user-attachments/assets/38299048-743f-4585-bb97-06f26a2f1c3e)
+
+
 
 </p>
 <br />
