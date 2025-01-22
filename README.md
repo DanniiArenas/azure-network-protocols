@@ -17,15 +17,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10 (21H2)
-- Ubuntu Server 20.04
+- Windows 10 (22h2)
+- Linux (ubuntu 24.04)
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create Azure Virtual Machines
+- Observe ICMP Traffic
+- Configure Firewalls via Network Security Groups
+- Observe Traffic - (SSH, DHCP, DNS, and RDP)
 
 <h2>Actions and Observations</h2>
 
