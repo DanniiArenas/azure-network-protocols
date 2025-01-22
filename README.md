@@ -29,16 +29,26 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Actions and Observations</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h3>Creating Virtual Machines via Azure Portal</h3>
 
 <p>
+
+![image](https://github.com/user-attachments/assets/d6e20364-4da6-4386-ae90-317d63383304)
+
+</p>
+<p>
+We are creating Virtual Machines via the Azure Portal. We need to make sure that they are both created within the same resource group. We are making sure to create a Virtual Machine on Windows 10 Pro Image, and Linux Ubuntu Image. The following settings should be similar for both virtual machines created. Once both virtual machines have been created, and then deployed; we will be moving onto step number 2.
+
+![image](https://github.com/user-attachments/assets/565bf77c-9e56-4ca0-8c4a-bee5fe61f980)
+
+</p>
+<br />
+<h3>Observing Network Traffic</h3>
+
+<p>
+  
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
